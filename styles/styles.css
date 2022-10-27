@@ -21,18 +21,24 @@
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
-  padding: 24px 94px 25px 215px;
   color: #2196f3;
 }
 .header__accent {
   color: #000000;
 }
+.container{ 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header__wrap{display: flex;}
 .header__list {
   list-style: none;
   margin-left: 129px;
-  padding: 32px 50px 32px 93px;
+  display: flex;
 }
 .header__item {
+  display: flex;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -46,6 +52,7 @@
   color: #2196f3;
 }
 .header__contact {
+  display: flex;
   list-style: none;
 }
 .header__contact-item {
